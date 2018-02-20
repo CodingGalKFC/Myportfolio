@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to bottom, #ffffff 0%, #00ccff 400%);
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.everything {
+  display: flex;
+  margin-top: 80px;
+  font-family: Sans-Serif;
+}
+
+img {
+  width: 200px
+}
+
+.aboutme {
+  border: 2px solid #c0eff2;
+  padding: 25px;
+  height: auto;
+  float: left;
+  height: 600px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+
+}
+
+.projectscontainer {
+  margin-left: 50px;
+  text-align: center;
+}
+
+
+.sample {
+  border: 2px solid none;
+  padding: 10px;
+  display: flex;
+  display: inline-block;
+}
+
+.contactmecontainer {
+  margin-left: 120px;
+  border: 2px solid #c0eff2;
+  width: 300px;
+  height: 680px;
+  text-align: center;
+
+}
+
+.head {
+  text-align: center;
+}
+
+.phone {
+  width: 60px;
+  padding: 15px;
+
+}
+
+.email {
+  width: 80px;
+  padding: 15px;
+
+
+}
+
+.github {
+  width: 110px;
+  padding: 15px;
+  margin-left: -8px;
+
+
+}
+
+.twitter {
+  width: 100px;
+  padding: 15px;
+
+}
+
+h1{
+  color: #b6b2b2;
+}
+
+h2 {
+  color: #cecaca;
+}
+
+a {
+  text-decoration: none;
+  font-family: Sans-Serif;
+  color: black;
+}
+
+@media (min-width: 320px) and (max-width: 480px);
